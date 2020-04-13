@@ -1,0 +1,55 @@
+.online-details {
+  background-image: url(cultural-back.PNG);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* color: rgb(247, 238, 238); */
+  font-family: "Gabriela", serif;
+  font-weight: 100;
+  overflow: scroll;
+}
+
+.online-scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #43193b;
+}
+
+.online-scroll::-webkit-scrollbar-thumb {
+  background-color: #c70c34;
+}
+
+.online-back-arrow {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+}
+
+.adjustmentsonline {
+  /* position: relative;
+    bottom: 70vh;
+    left: 2vw; */
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  left: 15%;
+  bottom: 67vh;
+
+  height: 77%;
+  width: 70%;
+  transition: all 1s;
+}
+
+@media screen and (min-width: 600px) {
+  .adjustmentsonline:hover {
+    transform: scaleX(1.7) scaleY(1.4) translateX(20vw);
+  }
+}
